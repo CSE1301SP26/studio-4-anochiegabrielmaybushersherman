@@ -24,8 +24,12 @@ public class CookieClicker {
 
         StdDraw.setPenColor(255,0,0);
         StdDraw.filledCircle(pow1X, pow1Y, pow1Radius);
+        StdDraw.text(0.15, 0.8, "+1 cookies/click");
+        StdDraw.text(0.15, 0.75, "Cost: 20 cookies");
         StdDraw.setPenColor(0,0,255);
         StdDraw.filledCircle(pow2X, pow2Y, pow2Radius);
+        StdDraw.text(0.85, 0.8, "+1 cookies/second");
+        StdDraw.text(0.85, 0.75, "Cost: 60 cookies");
         StdDraw.setPenColor(135,90,52);
         StdDraw.filledCircle(cookieX, cookieY, cookieRadius);
         StdDraw.setPenColor(75,38,27);
